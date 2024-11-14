@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("../images/sea-2.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.section h1
+{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 110px;
+    font-family: "Sour Gummy", sans-serif;
+}
+.section #quote
+{
+    width: 50%;
+    height: 250px;
+    margin-bottom: 80px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.section #quote span
+{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 576px)
+{
+    .section h1
+    {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .section #quote
+    {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .section h1
+    {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .section #quote
+    {
+        width: 80%;
+    }
+}
